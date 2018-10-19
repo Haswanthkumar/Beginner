@@ -1,20 +1,14 @@
-#include <stdio.h>
-int main(void) 
-{ 
+#include<stdio.h>
+int main() 
+{
 int i;
-printf("enter the nuber\n"); 
+printf("enter the number\n");
 scanf("%d",&i); 
   if(i==0) 
   {  
-  printf("the number is %d",i); 
-  } 
-  else if(i<0) 
-  {  
-  printf("the number is negative %d",i);
-  } 
-  else 
-  { 
-  printf("the number is postive%d",i ); 
-  }
+  printf("the number is %d",i); }
+else
+ {
+   i<0?printf("the number %d is negative",i):printf("the number %d is postive",i ); }
 return 0;
 }
